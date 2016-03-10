@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="SpringMvcJdbcTemplate" transaction-type="RESOURCE_LOCAL">
+		<class>model.Sysdiagram</class>
+		<class>model.TblAffected_Service</class>
+		<class>model.TblAffected_ServicePK</class>
+		<class>model.TblChange</class>
+		<class>model.TblCourse</class>
+		<class>model.TblDepartment</class>
+		<class>model.TblDepartmentPK</class>
+		<class>model.TblDivision</class>
+		<class>model.TblGeneral_parameter</class>
+		<class>model.TblIncident</class>
+		<class>model.TblPriority</class>
+		<class>model.TblResolution</class>
+		<class>model.TblResolutionPK</class>
+		<class>model.TblService</class>
+		<class>model.TblService_Department</class>
+		<class>model.TblService_DepartmentPK</class>
+		<class>model.TblService_Division</class>
+		<class>model.TblService_DivisionPK</class>
+		<class>model.TblSupplier</class>
+		<class>model.TblTeam</class>
+		<class>model.TblTeamPK</class>
+	</persistence-unit>
+</persistence>
